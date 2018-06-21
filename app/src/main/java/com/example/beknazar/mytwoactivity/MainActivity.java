@@ -1,5 +1,6 @@
 package com.example.beknazar.mytwoactivity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -22,6 +23,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.btnActTwo:
+                Intent intent = new Intent(this, ActivityTwo.class);
+                startActivity(intent);
                 break;
             default:
                 break;
