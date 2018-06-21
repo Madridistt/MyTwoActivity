@@ -3,13 +3,12 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-
     <Button
         android:id="@+id/btnActTwo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Перейти на вторую страницу"
+        android:layout_marginBottom="10pt"
         android:layout_gravity="center"/>
 
     <Button
@@ -17,18 +16,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
+        android:layout_marginBottom="10pt"
+
         android:text="Перейти на третью страницу" />
     <Button
         android:id="@+id/btnActFour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="10pt"
+
         android:text="Перейти на четвертую страницу" />
     <Button
         android:id="@+id/btnActFive"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
+        android:layout_marginBottom="10pt"
+
         android:text="Перейти на пятую страницу" />
 
 </LinearLayout>
