@@ -12,4 +12,23 @@
         android:text="Перейти на вторую страницу"
         android:layout_gravity="center"/>
 
+    <Button
+        android:id="@+id/btnActThree"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:text="Перейти на третью страницу" />
+    <Button
+        android:id="@+id/btnActFour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Перейти на четвертую страницу" />
+    <Button
+        android:id="@+id/btnActFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Перейти на пятую страницу" />
+
 </LinearLayout>
